@@ -1,0 +1,135 @@
+body{
+    height: 900px;
+    width: 1500px;
+    background-image: url(paisaje.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+    
+   
+
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    font-family: 'Indie+Flower', cursive;
+    font-size: 30px;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color:darkblue;
+    font-family:Arial;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background-color:white;
+    border:2px solid white;
+    padding:20px;
+    margin-top:5px;
+    font-size:20px;
+    color:black;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+button{
+    width:100px;
+    height:50px;
+    padding:1em;
+    border-radius:20%;
+
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow:10px 10px 5px #888888;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    text-align: center;
+}
+.container{
+    
+   padding: 1em;    
+   margin:3em;
+    position:fixed;
+    
+    
+}
+#nombre{
+    
+    background-image: url(social.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+#email{
+     background-image: url(multimedia.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#mensaje{
+      background-image: url(mensaje.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.contenido{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social li a{
+    color: white;
+    text-align: center;
+        display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.social li a:hover{background-color: black; width: 50px;}
+.facebook{
+    background-color: #222283;
+    background-image: url(facebook.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.twitter{
+    background-color: #1FB1EE;
+    background-image: url(Twitter-icon.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.youtube{
+    background-color: #EE2A1F;
+    background-image: url(Youtube-Icon_icon-icons.com_52898.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
